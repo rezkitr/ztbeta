@@ -260,7 +260,7 @@ function Form3(props) {
           <button type="button" className="btn btn-primary" style={{ fontWeight: "600" }}><i class="fas fa-hourglass mr-2"></i>LUNAS</button>
         </div>
 
-        <h3 className="mb-4" style={{ fontWeight: "800" }} >Rp 600.000</h3>
+        <h3 className="mb-4" style={{ fontWeight: "600" }} >Rp 600.000</h3>
 
       </form>
     </div>
