@@ -15,6 +15,14 @@ import DetailTrip from './pages/DetailTrip';
 import Reservasi from './pages/Reservasi';
 import Completed from './pages/Completed';
 
+import createHistory from "history/createBrowserHistory"
+
+export const history = createHistory()
+
+history.listen((location, action) => {
+  window.scrollTo(0, 0)
+})
+
 function App() {
 
   return (
