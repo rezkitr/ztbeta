@@ -19,7 +19,7 @@ function Navbar() {
                 <NavLink to="/opentrip" activeClassName="chosen" className="nav-link">Open Trip</NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Galeri</a>
+                <NavLink to="/gallery" activeClassName="chosen" className="nav-link">Galeri</NavLink>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">Download</a>

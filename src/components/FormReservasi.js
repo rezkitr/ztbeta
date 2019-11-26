@@ -65,10 +65,7 @@ export default class FormReservasi extends Component {
     if (currentStep === 3) {
       return (
         <div className="text-right">
-
           <Link to="/completed" className="btn btn-sm btn-success" onClick={this._next} >BAYAR<i class="far fa-credit-card ml-2"></i></Link>
-
-          {/* <button type="button" className="btn btn-sm btn-success" onClick={this._next} >BAYAR</button> */}
         </div>
       )
     }

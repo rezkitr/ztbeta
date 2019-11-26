@@ -14,6 +14,7 @@ import OpenTrip from './pages/OpenTrip';
 import DetailTrip from './pages/DetailTrip';
 import Reservasi from './pages/Reservasi';
 import Completed from './pages/Completed';
+import Gallery from './pages/Gallery';
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
           <Route path="/opentrip/detail/:id" exact strict component={DetailTrip} />
           <Route path="/opentrip/reservasi/:id" exact strict component={Reservasi} />
           <Route path="/completed" exact strict component={Completed} />
+          <Route path="/gallery" exact strict component={Gallery} />
         </Switch>
         <Footer />
       </div>
