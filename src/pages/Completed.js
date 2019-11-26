@@ -9,6 +9,8 @@ function Completed() {
         <div className="col-md-8">
           <h4 className="mt-3" >Terimakasih telah mempercayakan liburan anda bersama kami. Reservasi anda telah kami terima dan silahkan selesaikan proses pembayaran sebelum batas waktu berakhir.</h4>
         </div>
+
+        <Link to="/" class="btn btn-sm" >HOME</Link>
       </div>
 
     </div>
