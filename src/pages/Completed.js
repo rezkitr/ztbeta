@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Completed() {
   return (
@@ -8,9 +9,9 @@ function Completed() {
       <div className="row justify-content-center text-center">
         <div className="col-md-8">
           <h4 className="mt-3" >Terimakasih telah mempercayakan liburan anda bersama kami. Reservasi anda telah kami terima dan silahkan selesaikan proses pembayaran sebelum batas waktu berakhir.</h4>
-        </div>
+          <Link to="/" className="btn btn-sm btn-light-blue mt-4">HOME <i className="fas fa-home ml-2"></i></Link>
 
-        <Link to="/" class="btn btn-sm" >HOME</Link>
+        </div>
       </div>
 
     </div>
