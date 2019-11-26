@@ -37,7 +37,7 @@ export default class Gallery extends Component {
     return (
 
       <div className="container" id="gallery-page">
-        <div className="row">
+        <div className="row gallery-row">
           <div className="col-md">
             <MyGallery images={IMAGES} />
 
