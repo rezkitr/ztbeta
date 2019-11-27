@@ -40,7 +40,7 @@ export default class Gallery extends Component {
       <div className="container" id="gallery-page">
         <div className="row gallery-row">
           <div className="col-md">
-            <MyGallery images={IMAGES} />
+            <MyGallery images={IMAGES} enableImageSelection={false} />
           </div>
         </div>
       </div>
