@@ -34,13 +34,13 @@ const IMAGES =
 
 export default class Gallery extends Component {
   render() {
+
     return (
 
       <div className="container" id="gallery-page">
         <div className="row gallery-row">
           <div className="col-md">
             <MyGallery images={IMAGES} />
-
           </div>
         </div>
       </div>
