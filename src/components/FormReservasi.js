@@ -114,7 +114,7 @@ function Form1(props) {
         <div className="form-group row">
           <label htmlFor="tanggal" className="col-md-3 col-form-label">TANGGAL</label>
           <div className="col-md">
-            <select id="tanggal" className="custom-select" required>
+            <select id="tanggal" className="custom-select-sm" required>
               <option value="" disabled selected>Pilih Tanggal</option>
               <option value="1">12/12/2019</option>
               <option value="2">13/12/2019</option>

@@ -22,7 +22,7 @@ function Navbar() {
                 <NavLink to="/gallery" activeClassName="chosen" className="nav-link">Galeri</NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Download</a>
+                <NavLink to="/download" activeClassName="chosen" className="nav-link">Download</NavLink>
               </li>
             </ul>
           </div>

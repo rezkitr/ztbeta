@@ -7,7 +7,8 @@
 #detail-page,
 #rsv-page,
 #completed-page,
-#gallery-page {
+#gallery-page,
+#download-page {
   margin-top: 56px;
 }
 
@@ -90,6 +91,10 @@ footer {
 }
 
 .gallery-row {
+  margin-top: 90px;
+}
+
+.download-row {
   margin-top: 90px;
 }
 
