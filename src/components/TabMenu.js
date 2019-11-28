@@ -7,7 +7,7 @@ export default class TabMenu extends Component {
         <ul className="nav nav-tabs" id="myTab" role="tablist">
           <li className="nav-item">
             <a className="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
-              aria-selected="true"><i className="fas fa-clipboard-list mr-2"></i> Itinerary</a>
+              aria-selected="true"><i class="far fa-list-alt mr-2"></i>Itinerary</a>
           </li>
           <li className="nav-item">
             <a className="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
@@ -58,7 +58,7 @@ export default class TabMenu extends Component {
           </div>
         </div>
 
-      </div>
+      </div >
     )
   }
 }
